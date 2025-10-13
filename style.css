@@ -15,13 +15,8 @@ body {
   top: 0;
 }
 
-.header img {
-  max-width: 8rem;
-}
-
-.header nav img {
-  max-width: 6rem;
-}
+.header img {max-width: 8rem;}
+.header nav img {max-width: 6rem;}
 
 .header nav {
   display: flex;
@@ -45,9 +40,7 @@ nav ul {
   list-style: none;
 }
 
-nav li {
-  display: inline;
-}
+nav li {display: inline;}
 
 nav a {
   text-decoration: none;
@@ -89,8 +82,6 @@ nav a {
   background: #f9f9f9;
 }
 
-.trips h2 { text-align: center; }
-
 .trip-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -107,11 +98,9 @@ nav a {
 }
 
 .trip img { width: 100%; height: 180px; object-fit: cover; }
-
+.trips h2 { text-align: center; }
 .trip h3 { margin: 0.5rem; }
-
 .trip p { margin: 0.5rem; color: #555; }
-
 .trip .price { margin: 0.5rem; font-weight: bold; color: rgb(38, 119, 194);; }
 
 .about, .contact {
@@ -131,16 +120,21 @@ nav a {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-
 .about h3 {
     font-size: 1.4rem;
     margin-bottom: 1rem;
     color: #444;         
 }
-
 .about p {
     margin-bottom: 1rem;  
     color: #333;
+}
+
+.about img {
+  max-width: 18rem;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 footer {
@@ -296,27 +290,6 @@ footer a:hover {
 
 .download-btn:hover {
   background: #217dbb;
-}
-
-.kontakt ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.kontakt li {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-}
-
-.kontakt a {
-  color: #3498db;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.kontakt a:hover {
-  text-decoration: underline;
 }
 
 
